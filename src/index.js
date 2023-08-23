@@ -13,4 +13,4 @@ servidor.use(agendaController);
 
 servidor.listen(
   process.env.PORT,
-  () => `API subiu na porta ${process.env.PORT}`);
+  () => console.log(`API subiu na porta ${process.env.PORT}`));
